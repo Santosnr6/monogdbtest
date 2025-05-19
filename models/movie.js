@@ -13,7 +13,8 @@ const movieSchema = new Schema({
     },
     category : {
         type : String,
-        required : true
+        required : true,
+        minlength : 3
     }
 }, { timestamps : true });
 
